@@ -14,6 +14,7 @@ License:       BSD-like
 Group:         Development/Python
 BuildRequires: python-devel
 BuildArch:     noarch
+BuildRoot:     %{_tmppath}/%{name}-buildroot
 
 %description
 This module provides constants and functions for handling IEEE754
