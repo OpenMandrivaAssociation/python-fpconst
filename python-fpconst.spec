@@ -6,7 +6,7 @@
 Summary:       IEEE754 float infinity and NaN for python
 Name:          python-%{oname}
 Version:       0.7.2
-Release:       %mkrel 1
+Release:       %mkrel 3
 Epoch:         0
 URL:           http://cheeseshop.python.org/packages/source/f/fpconst/0.7.2
 Source0:       http://cheeseshop.python.org/packages/source/f/fpconst/fpconst-0.7.2.tar.bz2
