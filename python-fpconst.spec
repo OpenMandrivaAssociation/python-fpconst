@@ -5,8 +5,8 @@
 
 Summary:       IEEE754 float infinity and NaN for python
 Name:          python-%{oname}
-Version:       0.7.2
-Release:       %mkrel 5
+Version:       0.7.3
+Release:       %mkrel 1
 Epoch:         0
 URL:           http://cheeseshop.python.org/packages/source/f/%oname/%version
 Source0:       http://cheeseshop.python.org/packages/source/f/%oname/%oname-%version.tar.bz2
