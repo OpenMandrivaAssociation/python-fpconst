@@ -44,3 +44,46 @@ rm -rf %{buildroot}
 %doc README PKG-INFO
 %defattr(-,root,root)
 %{python_sitelib}/*
+
+
+%changelog
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 0:0.7.3-2mdv2010.0
++ Revision: 442113
+- rebuild
+
+* Sun Jan 04 2009 Jérôme Soyer <saispo@mandriva.org> 0:0.7.3-1mdv2009.1
++ Revision: 324270
+- New upstream release
+
+* Sun Dec 28 2008 Funda Wang <fwang@mandriva.org> 0:0.7.2-5mdv2009.1
++ Revision: 320140
+- rebuild for new python
+
+* Fri Aug 01 2008 Thierry Vignaud <tv@mandriva.org> 0:0.7.2-4mdv2009.0
++ Revision: 259613
+- rebuild
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 0:0.7.2-3mdv2009.0
++ Revision: 247415
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0:0.7.2-1mdv2008.1
++ Revision: 136448
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Sat Dec 09 2006 David Walluck <walluck@mandriva.org> 0.7.2-1mdv2007.0
++ Revision: 93951
+- 0.7.2
+- Import python-fpconst
+
+* Sat May 14 2005 Michael Scherer <misc@mandriva.org> 0.6.0-6mdk
+- from Tigrux <tigrux@ximian.com>
+  - Do not require python = 2.5
+
+* Sun Dec 05 2004 Michael Scherer <misc@mandrake.org> 0.6.0-5mdk
+- Rebuild for new python
+
