@@ -8,7 +8,7 @@ Name:          python-%{oname}
 Version:       0.7.3
 Release:       3
 Epoch:         0
-URL:           http://cheeseshop.python.org/packages/source/f/%oname/%version
+URL:           https://cheeseshop.python.org/packages/source/f/%oname/%version
 Source0:       http://cheeseshop.python.org/packages/source/f/%oname/%oname-%version.tar.bz2
 License:       BSD-like
 Group:         Development/Python
